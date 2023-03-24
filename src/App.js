@@ -21,7 +21,7 @@ const SomeComponent = PixiComponent('SomeComponent', {
     sprite.x = 200
     sprite.y = 200
 
-    // sprite.mask = graphics;
+    sprite.mask = graphics;
 
     return sprite;
     
